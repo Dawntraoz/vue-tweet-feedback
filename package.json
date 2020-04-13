@@ -1,0 +1,39 @@
+{
+  "name": "vue-tweet-feedback",
+  "version": "1.0.0",
+  "description": "Twitter feedback message button linked to your account.",
+  "keywords": [
+    "tweet",
+    "package",
+    "feedback"
+  ],
+  "homepage": "https://github.com/Dawntraoz/vue-tweet-feedback",
+  "bugs": {
+    "url": "https://github.com/Dawntraoz/vue-tweet-feedback/issues",
+    "email": "albasilventefu@gmail.com"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve src/TweetFeedback.vue",
+    "build": "npx bili --bundle-node-modules"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dawntraoz/vue-tweet-feedback.git"
+  },
+  "author": "Dawntraoz <albasilventefu@gmail.com> (https://dawntraoz.com)",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "bili": "^4.9.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
