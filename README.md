@@ -5,14 +5,7 @@ Twitter feedback message button linked to your account ❤ Add it to your blog p
 - [Install](#install)
 - [Use](#use)
 - [Options](#options)
-  - [Buttons with a counter](#buttons-with-a-counter)
-  - [Buttons without a counter](#buttons-without-a-counter)
-  - [Buttons for instant messengers](#buttons-for-instant-messengers)
-  - [Send a message via email](#send-a-message-via-email)
-  - [Full list of social networks](#full-list-of-social-networks)
-- [Example](#example)
 - [Author](#author)
-- [Link](#link)
 - [License](#license)
 
 ## Install
