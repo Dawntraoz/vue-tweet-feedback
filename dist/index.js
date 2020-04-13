@@ -193,7 +193,7 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-eb393e60_0", {
+  inject("data-v-4417ee54_0", {
     source: ".tweet-feedback{display:inline-block;padding-left:1.5rem;padding-right:1.5rem;padding-top:.75rem;padding-bottom:.75rem;margin-left:auto;margin-right:auto;color:#fff;border-radius:9999px;background-color:#6b46c1;text-decoration:inherit;box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)}",
     map: undefined,
     media: undefined
@@ -220,7 +220,7 @@ var __vue_component__ = normalizeComponent({
 
 var index = {
   install: function install(Vue, options) {
-    Vue.component("tweet-feedback", __vue_component__);
+    Vue.component("vue-tweet-feedback", __vue_component__);
   }
 };
 

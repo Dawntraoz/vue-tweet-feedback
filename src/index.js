@@ -1,7 +1,7 @@
-import TweetFeedback from "./TweetFeedback.vue";
+import VueTweetFeedback from "./VueTweetFeedback.vue";
 
 export default {
  install(Vue, options) {
-  Vue.component("tweet-feedback", TweetFeedback);
+  Vue.component("vue-tweet-feedback", VueTweetFeedback);
  }
 };
