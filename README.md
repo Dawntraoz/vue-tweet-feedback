@@ -14,9 +14,9 @@ Twitter feedback message button linked to your account ❤ Add it to your blog p
 Using npm run
 
 ```bash
-npm i vue-tweet-feedback
+npm i tweet-feedback
 ```
-[https://www.npmjs.com/package/vue-tweet-feedback](https://www.npmjs.com/package/vue-tweet-feedback)
+[https://www.npmjs.com/package/tweet-feedback](https://www.npmjs.com/package/tweet-feedback)
 
 ## Use
 
