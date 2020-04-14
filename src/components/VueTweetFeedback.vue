@@ -1,20 +1,22 @@
 <template>
-  <div>
+  <div :class="classesPrefix">
+    <slot name="header"></slot>
     <a
       :href="`https://twitter.com/intent/tweet?&text=${message}&url=${shareUrl}&screen_name=${user}`"
-      :class="classList"
+      :class="classesPrefix + '__button'"
       target="_blank"
       title="You could give me your feedback on Twitter"
     >
       <slot></slot>
     </a>
+    <slot name="footer"></slot>
   </div>
 </template>
 
 <script>
 export default {
  props: {
-  classList: {
+  classesPrefix: {
    type: String,
    default: "tweet-feedback"
   },
@@ -24,7 +26,7 @@ export default {
   },
   message: {
    type: String,
-   default: "I use your package!"
+   default: "I use your package! Thanks"
   },
   shareUrl: {
     type: String,
@@ -36,15 +38,21 @@ export default {
 
 <style>
 .tweet-feedback {
-
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  max-width: 360px;
+  margin: 0 auto;
+}
+.tweet-feedback__button {
+  display: flex;
+  align-items: center;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  margin-left: auto;
-  margin-right: auto;
-  
+  margin: 1rem auto;
   color: #fff;
   border-radius: 9999px;
   background-color: #6b46c1;
