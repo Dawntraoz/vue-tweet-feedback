@@ -30,7 +30,7 @@ export default {
   },
   shareUrl: {
     type: String,
-    default: document.location.href
+    default: () => document.location.href
   }
  }
 };
