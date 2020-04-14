@@ -23,7 +23,10 @@ npm i tweet-feedback
 You need to import the component. To do it you need: 
 
 ```js
-import "VueTweetFeedback";
+import 'tweet-feedback'
+
+// In case you want to add the css
+import 'tweet-feedback/dist/vue-tweet-feedback.css'
 ```
 
 You can directly use it in your template, add the feedback button:
@@ -31,7 +34,6 @@ You can directly use it in your template, add the feedback button:
 ```html
 <div id="app">
   <VueTweetFeedback
-      classesPrefix="tweet-feedback"
       user="dawntraoz"
       shareUrl="https://dawntraoz.com/"
       message="I read your post"
@@ -53,7 +55,7 @@ Here you can see the options available to create your own feedback.
 -----|-----|-----|-----
 user|String|`dawntraoz`|twitter user you want to be mentioned
 shareUrl|String|`document.location.href`|url you want people to share
-message|String|`I read your post`|Messages you want people to share
+message|String|`I use your package! Thanks`|Messages you want people to share
 classesPrefix|String|`tweet-feedback`|Prefix used as a class on the parent and as classPrefix__button on the Twitter button
 
 ## Slots

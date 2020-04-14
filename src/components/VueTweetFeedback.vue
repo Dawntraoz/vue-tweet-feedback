@@ -30,7 +30,7 @@ export default {
   },
   shareUrl: {
     type: String,
-    default: 'https://dawntraoz.com/'
+    default: document.location.href
   }
  }
 };

@@ -1,6 +1,6 @@
 {
   "name": "tweet-feedback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Twitter feedback message button linked to your account.",
   "keywords": [
     "tweet",
@@ -12,7 +12,7 @@
     "url": "https://github.com/Dawntraoz/vue-tweet-feedback/issues",
     "email": "albasilventefu@gmail.com"
   },
-  "main": "./dist/vue-tweet-feedback.js",
+  "main": "./dist/vue-tweet-feedback.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
