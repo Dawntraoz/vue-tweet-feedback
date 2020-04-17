@@ -2,7 +2,7 @@
 
 Twitter feedback message button linked to your account ❤ Add it to your blog posts on Nuxt.js / Vue app
 
-[CodeSandbox Demo](https://cw16g.csb.app/)
+[CodeSandbox Demo](https://cw16g.csb.app/){:target="_blank"}
 
 - [Install](#install)
 - [Nuxt](#nuxt)
