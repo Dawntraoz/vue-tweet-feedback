@@ -2,6 +2,8 @@
 
 Twitter feedback message button linked to your account ❤ Add it to your blog posts on Nuxt.js / Vue app
 
+[CodeSandbox Demo](https://cw16g.csb.app/)
+
 - [Install](#install)
 - [Nuxt](#nuxt)
 - [Use](#use)
@@ -60,8 +62,8 @@ In your nuxt config file add the plugin as mode client:
 
 ```js
 plugins: [
-    { src: '~plugins/tweet-feedback.js', mode: 'client' }
-  ]
+  { src: '~plugins/tweet-feedback.js', mode: 'client' }
+]
 ```
 
 Use it in your template with the client-only tag
