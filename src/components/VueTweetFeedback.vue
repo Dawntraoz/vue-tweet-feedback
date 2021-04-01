@@ -5,6 +5,7 @@
       :href="`https://twitter.com/intent/tweet?&text=${message}&url=${shareUrl}&screen_name=${user}`"
       :class="classesPrefix + '__button'"
       target="_blank"
+      rel="noopener noreferrer"
       title="You could give me your feedback on Twitter"
     >
       <slot></slot>
